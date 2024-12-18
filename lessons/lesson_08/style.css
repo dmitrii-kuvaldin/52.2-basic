@@ -46,7 +46,7 @@ header a:hover {
 }
 
 main {
-  padding: 0px 30px;
+  padding: 0px 30px 20px;
   /* настройка для flex элемента, чтобы он растянулся по размеру  контейнера родителя */
   flex: 1;
 }
@@ -66,6 +66,10 @@ footer {
   /* grid-auto-rows: 80px; */
 }
 
+.grid-gallery h3 {
+ margin-top: 5px;
+}
+
 .grid-gallery a {
   color: black;
   text-decoration: none;
@@ -80,7 +84,7 @@ footer {
 
 /* если не поставить '>' свойство коснется всех элементов потомков, не только прямых */
 .grid-gallery section {
-  padding: 12px;
+  padding: 12px 12px 30px;
   border: 1px solid black;
   border-radius: 5px;
   background-color: white;
